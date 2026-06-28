@@ -2,7 +2,7 @@
   "status": "shipped",
   "worker_model": "claude-opus-4-7",
   "session_url": null,
-  "updated_at": "2026-06-28T15:44:40.478221+00:00",
+  "updated_at": "2026-06-28T15:50:00Z",
   "build_time_seconds": null,
   "needs_review": true,
   "needs_deploy": false,
@@ -10,5 +10,5 @@
     "github": "https://astronaut2424.github.io/globsense-04-linfen/",
     "natapp": "https://t9a624a5.natappfree.cc/reel/04-linfen/"
   },
-  "notes": "Single-file index.html (~39 KB). All artwork inline SVG; no asset files. Diagnostic auto-runs on scroll into view (~5s sequence); label typewriter chains from diagnostic completion, also auto-fires on serum-section scroll if user skipped the diagnostic. Uses ../_shared/tokens.css and Google Fonts. Stop point — no deploy attempted."
+  "notes": "Deployed 2026-06-28. Repo globsense-04-linfen already existed from prior work — pushed new commit on top of it. GitHub Pages build triggered, completed within ~30s. Verified HTTP 200 with title '林芬 Linfen — 你的肌肤，由山林阅读' and hero-mark '林芬' present in the served HTML. Natapp reel mirror not reachable via /reel/ path in current tunnel config (matches state of 01-landing and 03-mingxi — natapp currently points at /webui/)."
 }
