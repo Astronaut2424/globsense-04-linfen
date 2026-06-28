@@ -1,0 +1,14 @@
+{
+  "status": "built",
+  "worker_model": "claude-opus-4-7",
+  "session_url": null,
+  "updated_at": "2026-06-28T15:50:00Z",
+  "build_time_seconds": null,
+  "needs_review": true,
+  "needs_deploy": true,
+  "deploy_targets": {
+    "github": null,
+    "natapp": null
+  },
+  "notes": "Single-file index.html (~39 KB). All artwork inline SVG; no asset files. Diagnostic auto-runs on scroll into view (~5s sequence); label typewriter chains from diagnostic completion, also auto-fires on serum-section scroll if user skipped the diagnostic. Uses ../_shared/tokens.css and Google Fonts. Stop point — no deploy attempted."
+}
